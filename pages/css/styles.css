@@ -1,0 +1,343 @@
+
+body {
+    background: #B2E79F;
+    background: linear-gradient(to right, #649ec4 , #0678c4);
+}
+
+
+#block-body {
+    width: 55%;
+    height: 600px; 
+    background: #ffff;
+    margin-top: 10%;
+    margin-left: 10%;
+    font: 12pt sans-serif;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#block-body h1 {
+    font-size: 34px;
+    margin-left: 35%;
+}
+
+#block-body h3 {
+    font-size: 14px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+#block-login-form {
+    background: #ffff;
+    width: 400px;
+    height: 350px;
+    margin-top: -30%;
+    margin-left: 70%;
+    position: absolute;
+    font: 12pt sans-serif;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#block-login-form #email {
+    padding: 18px;
+    width: 300px;
+    margin-top: 15%;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}   
+
+#block-login-form #email:focus {
+    outline: none;
+  }
+
+
+#block-login-form #password {
+    padding: 18px;
+    width: 300px;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}   
+
+#block-login-form #password:focus {
+    outline: none;
+  }
+
+
+#block-login-form #submit_login {
+    padding: 8px;
+    width: 335px;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: #649ec4;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    text-shadow: black 0 0 1px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}   
+
+#block-login-form #submit_register {
+    padding: 8px;
+    width: 300px;
+    margin-left: 10%;
+}   
+
+#block-login-form-reg {
+    font-size: 12px;
+    margin-left: 18%;
+}
+
+#block-login-form-reg b {
+    color: rgb(180, 180, 180, 255);
+}
+
+#block-login-form-reg a {
+    color: #649ec4;
+}
+
+
+
+
+
+
+
+#block-register-form-reg {
+    background: #ffff;
+    width: 400px;
+    height: 450px;
+    margin-top: -30%;
+    margin-left: 70%;
+    position: absolute;
+    font: 12pt sans-serif;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#block-register-form-reg #email {
+    padding: 18px;
+    width: 300px;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}   
+
+#block-register-form-reg #email:focus {
+    outline: none;
+  }
+
+  #block-register-form-reg #name {
+    padding: 18px;
+    width: 300px;
+    margin-top: 15%;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}   
+
+#block-register-form-reg #name:focus {
+    outline: none;
+  }
+
+
+  #block-register-form-reg #lastname {
+    padding: 18px;
+    width: 300px;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}   
+
+#block-register-form-reg #lastname:focus {
+    outline: none;
+  }
+
+
+  #block-register-form-reg #password {
+    padding: 18px;
+    width: 300px;
+    margin-left: 10%;
+    background: rgb(220, 220, 220);
+
+    font-size: 14px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+}   
+
+#block-register-form-reg #password:focus {
+    outline: none;
+  }
+
+
+  #block-register-form-reg #submit_register {
+    padding: 8px;
+    width: 300px;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: #649ec4;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    text-shadow: black 0 0 1px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}   
+
+
+#block-register-form-log {
+    font-size: 12px;
+    margin-left: 18%;
+}
+
+
+
+
+
+
+#block-main-column {
+    width: 80%;
+    height: 100px; 
+    background: rgb(250, 250, 250);
+    margin-left: 10%;
+    font: 12pt sans-serif;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#block-main-column-name {
+    width: 50%;
+    height: 64px; 
+    margin-left: 7%;
+    margin-top: -5%;
+}
+
+#block-main-column-logout-btn {
+    padding: 8px;
+    width: 160px;
+    height: 45px;
+    margin-top: -4%;
+    margin-left: 85%;
+    background: #ad5151;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    text-shadow: black 0 0 1px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+#block-main-column-logout-btn:hover {
+    background: rgba(0,0,0,0);
+	color: #ad5151;
+	box-shadow: inset 0 0 0 3px #ad5151;
+}
+
+
+
+
+
+#block-messages-main {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 50%;
+    height: 60%;
+    text-shadow: black 0 0 1px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#block-messages-your-dialogs {
+    width: 100%;
+    height: 10%;
+    background: #649ec4;
+}
+
+#block-messages-your-dialogs h3 {
+    color: white;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+    font: 14pt Helvetica, sans-serif;  
+    font-weight: 500
+}
+
+
+#block-messages-message {
+    position: relative;
+    color: rgb(136, 136, 136);
+    margin-top: 5%;
+    margin-left: 5%;
+    font: 14pt Helvetica, sans-serif;  
+    font-weight: 500
+}
+
+
+
+
+
+
+#block-messages-curr-dialogs {
+    width: 100%;
+    height: 10%;
+    background: #649ec4;
+}
+
+
+#block-messages-enter-message {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 40%;
+    height: 8%;
+    background: rgb(255, 255, 255);
+    text-shadow: black 0 0 1px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#block-messages-enter-message #input_label {
+    width: 70%;
+    height: 50%;
+    margin-left: 2%;
+    background: rgb(250, 250, 250);
+}
+
+#block-messages-enter-message #input_submit {
+    width: 15%;
+    height: 50%;
+    margin-left: 75%;
+    margin-top: -7%;
+    background: rgb(250, 250, 250);
+}
